@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLEA DE BLANC</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 🎅 ------ header -->
+        <header class="header">
+            <div class="inner headwrap">
+                <h1>
+                    <a href="">
+                        <img src="./images/logo.png" alt="PLEA DE BLANC">
+                    </a>
+                </h1>
+                <nav class="gnb">
+                    <h2 class="hidden">메뉴</h2>
+                    <ul>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="">ACCOMMODATION</a></li>
+                        <li><a href="">RESERVATION</a></li>
+                        <li><a href="">FACILITIES</a></li>
+                        <li><a href="">COMMUNITY</a></li>
+                    </ul>
+                </nav>
+                <div class="user">
+                    <form method="get" action="f">
+                        <input type="text" name="search" placeholder="검색어를 입력하세요.">
+                        <button><i class="xi-search"></i></button>
+                    </form>
+                    <i class="xi-bars"><span class="hidden">메뉴 전체보기</span></i>
+                </div>
+
+                <div class="mobile_btn">
+                    <button>
+                        <span class="hidden">모바일 메뉴 버튼</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- 👔 ------ main -->
+        <main>
+            <!-- 01: 메인 비쥬얼 슬라이드 -->
+            <section class="main_visual">
+                <h2 class="hidden">호텔 플레아드블랑 소개</h2>
+                <div class="main_slide">
+                    <div class="itm itm01">
+                        <div class="inner slogan">
+                            <h3>
+                                <span>WELCOME TO</span>
+                                <strong>PLEA DE BLANC</strong>
+                            </h3>
+                            <p>A place to experience and enjoy life</p>
+                        </div>
+                    </div>
+                    <div class="itm itm02">
+                        <div class="inner slogan">
+                            <h3>
+                                <span>You will love</span>
+                                <strong>PLEA DE BLANC</strong>
+                            </h3>
+                            <p>호텔 플레아드 블랑은 친절함,가성비,청결함을 지향하며 내집같은 편안한 세컨 하우스가 되고자 합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <div class="left"> <i class="xi-angle-left-min"></i></div>
+                    <div class="right"> <i class="xi-angle-right-min"></i></div>
+                </div>
+            </section>
+
+            <!-- 도전 : 메인 슬라이드와 겹쳐진 배너-->
+            <div class="main_banner">
+                <h2 class="hidden">호텔 예약하기</h2>
+                <div class="inner content">
+                    <form action="f" method="get" class="item">
+                        <div class="item">
+                            <label for="checkin">체크인</label>
+                            <input type="date" name="checkin">
+                        </div>
+                        <div class="item">
+                            <label for="checkout">체크아웃</label>
+                            <input type="date" name="checkout">
+                        </div>
+                        <div class="item">
+                            <label for="human">인원수</label>
+                            <select name="" id="">
+                                <option value="">총 인원</option>
+                                <option value="">1명</option>
+                                <option value="">2명</option>
+                                <option value="">3명</option>
+                                <option value="">4명</option>
+                            </select>
+                        </div>
+                        <div class="item">
+                            <input type="submit" value="예약하기">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 02: 메인 컨텐츠 이미지 3개 나열 -->
+            <section class="main_service sec">
+                <h2 class="hidden">호텔 플레아드블랑의 주요 서비스</h2>
+                <div class="title">
+                    <h3>Facilities</h3>
+                    <p>가장 편리하고 편안한 서비스</p>
+                </div>
+                <div class="inner content">
+                    <figure>
+                        <a href="">
+                            <div class="box">
+                                <img src="./images/maincontent01.png" alt="Restaurant(레스토랑)">
+                            </div>
+                            <div class="text">
+                                <strong>Restaurant</strong>
+                                <p>호텔 플레아드블랑에서는<br />다채로운 메뉴의 가정식 아침 식사를 제공해 드립니다.</p>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="">
+                            <div class="box">
+                                <img src="./images/maincontent02.png" alt="Fitness Center(피트니스 센터)">
+                            </div>
+                            <div class="text">
+                                <strong>Fitness Center</strong>
+                                <p>투숙 고객님의 건강과 여행 중 컨디션 회복을 위하여<br />저희 호텔 플레아드블랑에서는 피트니스센터를 운영하고 있습니다.</p>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="">
+                            <div class="box">
+                                <img src="./images/maincontent03.png" alt="Driving Range(골프라운지)">
+                            </div>
+                            <div class="text">
+                                <strong>Driving Range</strong>
+                                <p>투숙 고객님들을 위한 부대시설로<br />쾌적한 실내 골프연습장을 운영하고 있습니다.</p>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+            </section>
+        </main>
+
+
+        <!-- 👢 ------ footer -->
+        <footer class="footer">
+            <h2 class="hidden">고객지원</h2>
+            <div class="inner content">
+                <div class="ft">
+                    <ul class="foot_customer">
+                        <li><a href=""><strong>개인정보처리방침</strong></a></li>
+                        <li><a href="">이메일무단수집금지</a></li>
+                        <li><a href="">사이트맵</a></li>
+                    </ul>
+                    <ul class="foot_sns">
+                        <li><a href="" target="_blank"><i class="xi-youtube"></i></a></li>
+                        <li><a href="" target="_blank"><i class="xi-instagram"></i></a></li>
+                        <li><a href="" target="_blank"><i class="xi-facebook"></i></a></li>
+                    </ul>
+                </div>
+                <div class="fb">
+                    <address>
+                        <ul class="foot_list">
+                            <li>부산시 해운대구 해운대해변로 298번길 29 해운대푸르지오시티(중동)</li>
+                            <li><a href="tel:051-742-2277" target="_blank">Tel. <strong>051-742-2277</strong>(프런트)</a>
+                            </li>
+                            <li><a href="mailto:pleadeblanc@gmail.com" target="_blank">E-mail. pleadeblanc@gmail.com</a>
+                            </li>
+                            <li>(주)지엔해운대 대표이사 : KIM YOUNG AE(김영애)</li>
+                            <li>Copyrightⓒ pleadeblanc, All Rights Reserved.</li>
+                        </ul>
+                    </address>
+                    <div class="foot_familylink">
+                        <select id="fl">
+                            <option value="">FAMILY SITE</option>
+                            <option value="http://naver.com">네이버</option>
+                            <option value="http://daum.net">다음</option>
+                            <option value="http://google.co.kr">구글</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- 🎈 ------ top -->
+        <div class="to_top">
+            <i class="xi-arrow-top"><span class="hidden">상단으로</span></i>
+        </div>
+    </div>
+</body>
+
+</html>
